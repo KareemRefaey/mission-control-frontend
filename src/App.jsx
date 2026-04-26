@@ -51,8 +51,7 @@ function App() {
     dueDate: '',
     assignedTo: ''
   })
-// تحديد عنوان الـ Backend لجميع الطلبات
-axios.defaults.baseURL = 'https://mission-control-backend-t1e5.onrender.com';
+
   // جلب المهام حسب الدور
   const fetchMyTasks = async () => {
     try {
